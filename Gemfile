@@ -61,3 +61,15 @@ gem 'bullet', group: [:development, :test]
 gem 'factory_bot_rails', group: [:development, :test]
 gem 'delayed_job_active_record'
 gem 'rack-timeout', group: :production
+
+## custom for this app
+# frontend
+gem 'foundation-rails', '~> 6.4', '>= 6.4.3.0'
+gem 'devise-foundation-views', '~> 0.1.1'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+
+# backend
+gem 'rails_admin', '~> 1.3' # support rails_admin
+gem 'rails_admin_import', '~> 2.1' # easily import csv and excel
+gem 'devise', '~> 4.4', '>= 4.4.3'
+gem 'ransack', '~> 1.8', '>= 1.8.8' # search
